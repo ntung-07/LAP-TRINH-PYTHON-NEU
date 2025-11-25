@@ -1,0 +1,51 @@
+Company Name,Industry,State,Founding Year,Revenue,Market Cap,Stock Name,Employees
+Apple Inc.,Consumer Electronics,California,1998,387.53,2520,AAPL,"1,640"
+Microsoft Corporation,Software Infrastructure,Washington,2007,204.09,2037,MSFT,"2,210"
+Alphabet (Google),Software Infrastructure,California,2008,282.83,1350,GOOG,"1,902"
+Amazon,Software Application,Washington,2014,513.98,1030,AMZN,"1,541"
+NVIDIA Corporation,Semiconductors,California,2020,26.97,653,NVDA,225
+Tesla,Software Infrastructure,Texas,1993,81.46,625,TSLA,"1,279"
+Meta Platforms,Software Infrastructure,California,2018,116.6,524,META,865
+Broadcom Inc.,Semiconductors,California,1997,34.41,266,AVGO,200
+Oracle Corporation,Software Infrastructure,Texas,1991,46.07,236,ORCL,"1,430"
+Cisco Systems Inc.,Communication Equipments,California,1998,53.16,208,CSCO,833
+Salesforce Inc.,Software Application,California,2003,31.35,189,CRM,735
+Adobe Inc.,Software Infrastructure,California,2010,17.6,172,ADBE,292
+Texas Instruments Inc.,Semiconductors,Texas,2020,20.02,162,TXN,330
+Advanced Micro Devices (AMD) Inc.,Semiconductors,California,2007,23.6,155,AMD,250
+Qualcomm Inc.,Semiconductors,California,1995,42.95,138,QCOM,510
+Netflix,Software Application,California,1997,31.61,136,NFLX,128
+Intel Corporation,Semiconductors,California,2006,63.05,118,INTC,"1,319"
+Intuit Inc.,Software Application,California,2014,13.68,118,INTU,173
+IBM Corporation,IT Services,New York,2011,60.52,113,IBM,"3,450"
+Applied Materials Inc.,Semiconductors,California,2020,26.25,102,AMAT,330
+Booking Holdings,Software Application,Connecticut,1990,17.09,97,BKNG,207
+Analog Devices Inc.,Semiconductors,Massachusetts,1994,12.57,95,ADI,245
+ServiceNow Inc.,Software Application,California,2001,7.24,90,NOW,204
+Automatic Data Processing,Software Application,New Jersey,2016,16.67,90,ADP,600
+PayPal Holdings Inc.,Software Infrastructure,California,2006,27.51,87,PYPL,299
+Airbnb,Software Application,California,2006,8.39,78,ABNB,61
+Fiserv Inc.,IT Services,Wisconsin,2005,17.73,71,FISV,440
+Lam Research Corporation,Semiconductors,California,1992,19.04,69,LRCX,187
+Uber Technologies Inc.,Software Application,California,2005,31.87,66,UBER,325
+Micron Technology,Semiconductors,Idaho,1990,27.15,64,MU,490
+Equinix,IT Services,California,2012,7.26,64,EQIX,115
+Activision Blizzard,Software Application,California,2011,7.52,63,ATVI,130
+Palo Alto Networks Inc.,,California,2015,6.15,59,PANW,126
+Synopsys Inc.,Software Infrastructure,California,2015,5.17,57,SNPS,
+Cadence Design Systems Inc.,Software Application,California,2017,3.56,57,CDNS,93
+KLA Corporation,Semiconductors,California,2016,10.48,53,KLAC,140
+Arista Networks Inc.,Computer Hardware,California,2020,4.38,52,ANET,30
+VMware Inc.,Software Infrastructure,California,1999,13.34,51,VMW,375
+Workday Inc.,Software Application,California,2020,6.21,49,WDAY,175
+Fortinet Inc.,Software Infrastructure,California,1990,4.41,49,FTNT,115
+Block Inc.,Software Infrastructure,California,2000,17.53,47,SQ,85
+Snowflake Inc.,Software Application,Montana,2007,2.06,46,SNOW,50
+Roper Technologies,Electronic Components,Florida,1997,5.61,46,ROP,193
+Microchip Technology Inc.,Semiconductors,Arizona,2010,8.05,45,MCHP,210
+Autodesk Inc.,Software Application,California,2018,,45,ADSK,126
+GlobalFoundries,Semiconductors,New York,2012,8.1,38,GFS,146
+IQVIA Holdings,Software Application,North Carolina,2009,14.41,37,IQV,850
+Marvell Technology Inc.,Semiconductors,California,1990,5.91,35,MRVL,67
+Dell Technologies Inc.,Computer Hardware,Texas,2010,102.3,28,DELL,"1,330"
+HP Inc.,Computer Hardware,California,2014,59.78,28,HPQ,510
