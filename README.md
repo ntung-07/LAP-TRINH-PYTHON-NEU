@@ -6,5 +6,5 @@
 * seaborn
 
 ## content:
-* **BT_Chuong*.ipynbs**: modular practices
-* **KTRA_GIUA_KY**: mid-terms
+- **BT_Chuong*.ipynbs**: modular practices
+- **KTRA_GIUA_KY**: mid-terms
