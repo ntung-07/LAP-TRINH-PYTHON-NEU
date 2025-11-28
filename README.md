@@ -1,10 +1,10 @@
 # python data analytics practice tasks (beginner level)
-### libs:
+## libs:
 * pandas
 * numpy
 * matplotlib
 * seaborn
 
-### content:
-* BT_Chuong*.ipynbs: modular practices
-* KTRA_GIUA_KY: mid-terms
+## content:
+* **BT_Chuong*.ipynbs**: modular practices
+* **KTRA_GIUA_KY**: mid-terms
