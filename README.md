@@ -1,5 +1,4 @@
-# python data analytics practice tasks
----
+# python data analytics practice tasks (beginner level)
 ### libs:
 * pandas
 * numpy
