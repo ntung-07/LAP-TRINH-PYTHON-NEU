@@ -1,0 +1,459 @@
+🟦 CHƯƠNG 1 – PYTHON CƠ BẢN
+
+print() – in ra màn hình
+
+print("Hello")                      # in chuỗi
+print(a, b, sep=' - ', end='')      # sep: ngăn cách, end: ký tự cuối (mặc định '\n')
+
+
+input() – nhập từ bàn phím
+
+name = input("Nhập tên: ")          # trả về str
+age = int(input("Nhập tuổi: "))     # ép kiểu sang int luôn
+x = float(input("Nhập số thực: "))
+
+
+Ép kiểu
+
+int("10")       # 10
+float("3.14")   # 3.14
+str(10)         # "10"
+bool(0)         # False, bool(1) → True
+
+
+Toán tử số học
+
+a + b      # cộng
+a - b      # trừ
+a * b      # nhân
+a / b      # chia float
+a // b     # chia nguyên
+a % b      # chia dư
+a ** b     # lũy thừa
+
+
+Comment
+
+# đây là comment
+'''
+comment nhiều dòng
+'''
+
+🟦 CHƯƠNG 2 – KIỂU DỮ LIỆU
+✅ String (chuỗi ký tự)
+s = "Hello"
+s[0]        # 'H'
+s[-1]       # 'o'
+len(s)      # 5
+s[1:4]      # 'ell' – slice
+
+
+Một số hàm nhanh:
+
+s.upper()            # "HELLO"
+s.lower()            # "hello"
+s.strip()            # bỏ khoảng trắng 2 đầu
+s.replace("H","J")   # "Jello"
+s.split(",")         # tách chuỗi → list
+"-".join(["a","b"])  # "a-b"
+
+✅ List – danh sách thay đổi được
+lst = [1, 2, 3]
+lst.append(4)        # [1,2,3,4]
+lst.remove(2)        # xóa phần tử có giá trị 2
+x = lst.pop()        # xóa & trả về phần tử cuối
+n = len(lst)         # số phần tử
+2 in lst             # True nếu 2 trong list
+lst.index(3)         # vị trí của 3 (nếu không có sẽ lỗi)
+
+✅ Tuple – giống list nhưng không thay đổi được
+t = (1, 2, 3)
+t[0]     # 1
+# t[0] = 10  -> lỗi (không sửa được)
+
+
+Dùng cho dữ liệu cố định, không cần sửa.
+
+✅ Set – tập hợp không trùng lặp
+s = {1, 2, 2, 3}   # {1,2,3}
+s.add(4)
+s.remove(2)        # xóa 2, lỗi nếu không có
+s.discard(5)       # xóa 5, không lỗi nếu không có
+
+
+Dùng để loại trùng, toán tập hợp:
+
+a | b   # union (hợp)
+a & b   # intersection (giao)
+a - b   # difference (hiệu)
+a ^ b   # symmetric difference
+
+✅ Dictionary – từ điển key/value
+d = {"name": "Nam", "age": 20}
+d["name"]              # "Nam"
+d.get("class", "NA")   # nếu không có key thì trả "NA"
+d.keys()               # tất cả key
+d.values()             # tất cả value
+d.items()              # (key, value) pairs
+
+🟦 CHƯƠNG 3 – CẤU TRÚC ĐIỀU KHIỂN
+
+if / elif / else
+
+if x > 0:
+    print("Dương")
+elif x == 0:
+    print("Không")
+else:
+    print("Âm")
+
+
+for – lặp theo số lần hoặc danh sách
+
+for i in range(5):        # 0,1,2,3,4
+    print(i)
+
+for x in [10, 20, 30]:
+    print(x)
+
+
+while – lặp đến khi điều kiện sai
+
+while x > 0:
+    x -= 1
+
+
+break / continue
+
+for i in range(10):
+    if i == 5:
+        break            # dừng vòng lặp
+    if i % 2 == 0:
+        continue         # bỏ qua số chẵn
+    print(i)
+
+🟦 CHƯƠNG 4 – HÀM, MODULE, PACKAGE
+
+Hàm – đoạn mã tái sử dụng
+
+def add(x, y):
+    return x + y
+
+res = add(3, 4)    # 7
+
+
+Tham số mặc định
+
+def hi(name="A"):
+    print("Hello", name)
+
+hi()         # Hello A
+hi("Việt")   # Hello Việt
+
+
+*args, **kwargs – nhận nhiều tham số linh hoạt
+
+def f(*args):
+    print(args)
+
+f(1,2,3)   # (1,2,3)
+
+def g(**kwargs):
+    print(kwargs)
+
+g(a=1, b=2)   # {'a':1,'b':2}
+
+
+Module – import thư viện
+
+import math
+math.sqrt(9)    # 3.0
+from math import sin, pi
+
+
+Tạo module tự viết
+– viết hàm trong file mymath.py, sau đó:
+
+import mymath
+mymath.add(1,2)
+
+🟦 CHƯƠNG 5 – OOP (RẤT QUAN TRỌNG)
+
+Class – khuôn mẫu
+
+class A:
+    pass
+
+
+Object – thể hiện của class
+
+a = A()
+
+
+init – constructor
+
+class Student:
+    def __init__(self, name, gpa):
+        self.name = name      # attribute
+        self.gpa = gpa
+
+
+Phương thức (method)
+
+class Student:
+    def __init__(self, name):
+        self.name = name
+
+    def show(self):           # luôn có self
+        print(self.name)
+
+🔐 Encapsulation – đóng gói / thuộc tính private
+class Bank:
+    def __init__(self, balance):
+        self.__balance = balance    # private
+
+    def get_balance(self):
+        return self.__balance       # getter
+
+    def deposit(self, amount):
+        self.__balance += amount    # setter-like
+
+🧬 Inheritance – kế thừa
+class Animal:
+    def speak(self):
+        print("...")
+
+class Dog(Animal):
+    def speak(self):               # overriding
+        print("Gâu gâu")
+
+d = Dog()
+d.speak()    # "Gâu gâu"
+
+
+super() – gọi constructor cha
+
+class Person:
+    def __init__(self, name):
+        self.name = name
+
+class Student(Person):
+    def __init__(self, name, gpa):
+        super().__init__(name)    # gọi Person.__init__
+        self.gpa = gpa
+
+🌀 Polymorphism – đa hình
+class Cat:
+    def speak(self):
+        print("Meo")
+
+class Dog:
+    def speak(self):
+        print("Gâu")
+
+for animal in [Cat(), Dog()]:
+    animal.speak()   # cùng gọi speak nhưng hành vi khác nhau
+
+🧱 Composition – class chứa object khác
+class Engine:
+    def start(self):
+        print("Start engine")
+
+class Car:
+    def __init__(self):
+        self.engine = Engine()   # Car có Engine
+
+    def start(self):
+        self.engine.start()
+
+str – in object cho đẹp
+class Student:
+    def __init__(self, name, gpa):
+        self.name = name
+        self.gpa = gpa
+
+    def __str__(self):
+        return f"{self.name} ({self.gpa})"
+
+s = Student("Nam", 3.2)
+print(s)      # Nam (3.2)
+
+🟦 CHƯƠNG 6 – NUMPY
+
+Tạo mảng
+
+import numpy as np
+
+a = np.array([1,2,3])
+b = np.array([[1,2],[3,4]])
+
+np.zeros((2,3))
+np.ones((3,3))
+np.arange(0,10,2)       # [0 2 4 6 8]
+np.linspace(0,1,5)      # 5 điểm từ 0 → 1
+
+
+Thống kê cơ bản
+
+np.mean(a)
+np.max(a)
+np.min(a)
+np.median(a)
+np.std(a)
+
+
+Tính toán vector
+
+a + 5          # cộng từng phần tử
+a * 2
+a ** 2
+a + np.array([10,20,30])
+
+
+Slicing / indexing
+
+a[0]
+b[0,1]
+b[:,0]      # cột 0
+b[1,:]      # dòng 1
+
+🟦 CHƯƠNG 6 – PANDAS (CỰC QUAN TRỌNG)
+import pandas as pd
+
+
+Đọc CSV
+
+df = pd.read_csv("file.csv")
+
+
+Kiểm tra dữ liệu
+
+df.head()          # vài dòng đầu
+df.tail()          # vài dòng cuối
+df.shape           # (số_hàng, số_cột)
+df.info()          # kiểu cột, null
+df.dtypes          # kiểu từng cột
+df.describe()      # thống kê số (mean, std, min, max...)
+
+
+Chọn cột
+
+df["A"]                # 1 cột → Series
+df[["A","B"]]          # nhiều cột → DataFrame
+
+
+Lọc điều kiện
+
+df[df["A"] > 10]
+df[(df["A"] > 10) & (df["B"] == "CA")]
+df[(df["Sector"] == "AI/ML") & (df["State"] == "CA")]
+
+
+Tạo cột mới
+
+df["Age"] = 2024 - df["Founded"]
+df["ratio"] = df["Revenue"] / df["MarketCap"]
+
+
+Xóa NaN
+
+df.dropna()            # xóa dòng có NaN
+df.fillna(0)           # thay toàn bộ NaN bằng 0
+
+
+value_counts – đếm theo nhóm (rất hay ra)
+
+df["Sector"].value_counts()
+df["Sector"].value_counts(normalize=True) * 100   # % theo Sector
+
+
+groupby – tính toán theo nhóm
+
+df.groupby("Sector")["MarketCap"].mean()              # MarketCap TB theo Sector
+df.groupby(["Sector","State"])["Revenue"].sum()       # Revenue tổng theo Sector+State
+
+
+agg – nhiều hàm cùng lúc
+
+df.groupby("State").agg({
+    "A": "mean",
+    "B": "max",
+    "C": "sum"
+})
+
+
+sort_values – sắp xếp
+
+df.sort_values("MarketCap", ascending=False)
+
+
+nlargest – lấy top nhanh
+
+df.nlargest(10, "MarketCap")    # top 10 theo MarketCap
+
+
+idxmax / idxmin – LẤY CHỈ SỐ DÒNG LỚN NHẤT/NHỎ NHẤT
+
+idx = df["MarketCap"].idxmax()      # index của dòng có MarketCap lớn nhất
+row_max = df.loc[idx]               # lấy nguyên dòng
+
+idx_min = df["MarketCap"].idxmin()
+row_min = df.loc[idx_min]
+
+
+idxmax theo từng nhóm (câu hay ra):
+
+max_each_sector = df.loc[
+    df.groupby("Sector")["Revenue"].idxmax()
+]
+# mỗi Sector 1 dòng: công ty có Revenue lớn nhất trong Sector đó
+
+
+reset_index – phẳng lại sau groupby
+
+df.groupby(["Sector","State"])["A"].mean().reset_index()
+
+
+Các toán cơ bản thường dùng
+
+df["A"].mean()
+df["A"].median()
+df["A"].std()
+df["A"].sum()
+
+🟦 MATPLOTLIB – VẼ BIỂU ĐỒ CƠ BẢN
+import matplotlib.pyplot as plt
+
+
+Bar chart
+
+plt.bar(x, y)
+plt.title("Title")
+plt.xlabel("X")
+plt.ylabel("Y")
+plt.show()
+
+
+Histogram
+
+plt.hist(df["A"], bins=20)
+plt.title("Histogram A")
+plt.xlabel("A")
+plt.ylabel("Frequency")
+plt.show()
+
+
+Scatter
+
+plt.scatter(df["A"], df["B"])
+plt.title("A vs B")
+plt.xlabel("A")
+plt.ylabel("B")
+plt.show()
+
+
+Pie
+
+plt.pie(values, labels=labels, autopct="%1.1f%%")
+plt.title("Pie Chart")
+plt.show()

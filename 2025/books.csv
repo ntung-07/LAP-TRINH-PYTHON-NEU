@@ -1,0 +1,115 @@
+Title,Author,Genre,Rating,Height,Publisher
+Data Scientists at Work,"Foreman, John",data_science,2.68,230,Apress
+Data Mining Handbook,"Wells, H. G.",data_science,3.58,242,Apress
+Birth of a Theorem,"Foreman, John",mathematics,1.06,234,Apress
+Image Processing & Mathematical Morphology,"Foreman, John",signal_processing,4.75,241,Apress
+One,"Steinbeck, John",nonfiction,1.15,172,Apress
+Soft Computing & Intelligent Systems,"Taub, Schilling",data_science,3.52,242,Apress
+Uncommon Wisdom,"Steinbeck, John",nonfiction,2.01,197,Apress
+Free Will,"Steinbeck, John",philosophy,3.85,203,Apress
+Superfreakonomics,"Foreman, John",economics,2.51,179,HarperCollins
+Tales of Mystery and Imagination,"Hitler, Adolf",fiction,3.7,172,HarperCollins
+"Hidden Connections, The","Dubner, Stephen",science,2.7,197,HarperCollins
+Scoop!,"Archer, Jeffery",history,2.73,216,HarperCollins
+Beyond Degrees,"Archer, Jeffery",nonfiction,3.85,222,HarperCollins
+"Great War for Civilization, The","Steinbeck, John",history,4.3,197,HarperCollins
+"Analysis, Vol I","Wells, H. G.",mathematics,3.86,248,Jaico
+"Artist and the Mathematician, The","Steinbeck, John",science,1.82,186,Jaico
+"Last Lecture, The","Hitler, Adolf",nonfiction,1.82,197,Jaico
+"Theory of Everything, The","Steinbeck, John",science,4.02,217,Jaico
+"World's Greatest Short Stories, The","Steinbeck, John",fiction,3.04,217,Jaico
+Selected Short Stories,"Steinbeck, John",fiction,4.07,215,Jaico
+Asami Asami,"Dubner, Stephen",fiction,3.43,205,Mauj
+Ahe Manohar Tari,"Archer, Jeffery",nonfiction,2.66,213,Mauj
+Radiowaril Bhashane & Shrutika,"Archer, Jeffery",nonfiction,2.32,213,Mauj
+Gun Gayin Awadi,"Archer, Jeffery",nonfiction,1.82,212,Mauj
+Aghal Paghal,"Archer, Jeffery",nonfiction,2.74,212,Mauj
+Maqta-e-Ghalib,"Archer, Jeffery",fiction,1.54,221,Mauj
+Manasa,"Archer, Jeffery",nonfiction,4.64,213,Mauj
+Structure & Interpretation of Computer Programs,"Foreman, John",computer_science,2.83,240,MIT Press
+Statistical Decision Theory',"Wells, H. G.",data_science,1.93,236,MIT Press
+Introduction to Algorithms,"Wells, H. G.",computer_science,3.47,234,MIT Press
+Making Software,"Wells, H. G.",computer_science,4.26,232,O'Reilly
+Machine Learning for Hackers,"Wells, H. G.",data_science,1.6,233,O'Reilly
+Python for Data Analysis,"Wells, H. G.",data_science,4.39,233,O'Reilly
+Learning OpenCV,"Taub, Schilling",data_science,2.6,232,O'Reilly
+Integration of the Indian States,"Foreman, John",history,4.03,217,MIT Press
+False Impressions,"Hitler, Adolf",fiction,3,177,MIT Press
+"Prisoner of Birth, A","Archer, Jeffery",fiction,4.65,176,MIT Press
+Textbook of Economic Theory,"Taub, Schilling",economics,1.16,242,Pearson
+Econometric Analysis,"Taub, Schilling",economics,1.66,242,Pearson
+"Computer Vision, A Modern Approach","Taub, Schilling",data_science,4.74,255,Pearson
+God Created the Integers,"Foreman, John",mathematics,2.95,197,Penguin
+Orientalism,"Foreman, John",history,1.87,197,Penguin
+"Drunkard's Walk, The","Foreman, John",science,2.2,197,Penguin
+How to Think Like Sherlock Holmes,"Konnikova, Maria",psychology,1.48,240,Springer
+"Age of Wrath, The","Foreman, John",history,1.65,238,Springer
+"New Machiavelli, The","Wells, H. G.",fiction,4.82,180,Springer
+Physics & Philosophy,"Wells, H. G.",science,4.76,197,Springer
+"Signal and the Noise, The","Wells, H. G.",data_science,4.74,233,Springer
+"Beautiful and the Damned, The","Wells, H. G.",nonfiction,4.14,198,Penguin
+"Outsider, The","Wells, H. G.",fiction,1.19,198,Penguin
+"Tao of Physics, The","Hitler, Adolf",science,3.49,179,Penguin
+Return of the Primitive,"Hitler, Adolf",philosophy,4.89,202,Penguin
+"Russian Journal, A","Hitler, Adolf",nonfiction,2.96,196,Penguin
+Freakonomics,"Dubner, Stephen",economics,2.59,197,Penguin
+Journal of a Novel,"Dubner, Stephen",fiction,1.46,196,Penguin
+Once There Was a War,"Dubner, Stephen",nonfiction,2.97,196,Penguin
+"Moon is Down, The","Dubner, Stephen",fiction,4.45,196,Penguin
+Crime and Punishment,"Taub, Schilling",fiction,2.3,180,Penguin
+Sea of Poppies,"Taub, Schilling",fiction,3.73,197,Penguin
+"Idea of Justice, The","Taub, Schilling",nonfiction,1.68,212,Penguin
+"Raisin in the Sun, A","Taub, Schilling",fiction,3.53,175,Penguin
+"Last Mughal, The","Archer, Jeffery",history,2.14,199,Prentice Hall
+India from Midnight to Milennium,"Archer, Jeffery",history,3.58,198,Prentice Hall
+"Great Indian Novel, The","Archer, Jeffery",fiction,1.11,198,Prentice Hall
+"Winter of Our Discontent, The","Steinbeck, John",fiction,2.62,196,Prentice Hall
+Bookless in Baghdad,"Steinbeck, John",nonfiction,2.74,206,Prentice Hall
+New Markets & Other Essays,"Steinbeck, John",economics,4.34,176,Prentice Hall
+Electric Universe,"Steinbeck, John",science,4.6,201,Penguin
+Burning Bright,"Steinbeck, John",fiction,1.57,175,Penguin
+Doctor in the Nude,"Steinbeck, John",fiction,3.74,179,Penguin
+Down and Out in Paris & London,"Steinbeck, John",nonfiction,1.97,179,Penguin
+Identity & Violence,"Steinbeck, John",philosophy,4.82,219,Penguin
+We the Living,"Steinbeck, John",fiction,2.71,178,Penguin
+To Sir With Love,"Steinbeck, John",fiction,1.56,197,Penguin
+"Argumentative Indian, The","Taub, Schilling",nonfiction,1.02,209,Picador
+"Story of Philosophy, The","Dubner, Stephen",philosophy,2.61,170,Pocket
+Data Structures Using C & C++,"Taub, Schilling",computer_science,2.17,235,Prentice Hall
+Let Us C,"Taub, Schilling",computer_science,3.91,213,Prentice Hall
+Slaughterhouse Five,"Foreman, John",fiction,1.7,198,Random House
+"Trial, The","Wells, H. G.",fiction,4.82,198,Random House
+"Complete Sherlock Holmes, The - Vol I","Wells, H. G.",fiction,1.88,176,Random House
+"Complete Sherlock Holmes, The - Vol II","Wells, H. G.",fiction,3.62,176,Routledge
+"Wealth of Nations, The","Wells, H. G.",economics,4.31,175,Routledge
+"Pillars of the Earth, The","Follett, Ken",fiction,3.83,176,Routledge
+Surely You're Joking Mr Feynman,"Hitler, Adolf",science,2.1,198,Routledge
+Jurassic Park,"Hitler, Adolf",fiction,2.94,174,Routledge
+"Brethren, The","Dubner, Stephen",fiction,2.37,174,Routledge
+Catch 22,"Dubner, Stephen",fiction,4.49,178,Routledge
+Dylan on Dylan,"Taub, Schilling",nonfiction,4.79,197,Random House
+"Amulet of Samarkand, The","Taub, Schilling",fiction,2,179,Random House
+Angels & Demons,"Taub, Schilling",fiction,2.83,178,Random House
+All the President's Men,"Archer, Jeffery",history,3.31,177,Random House
+"Hunchback of Notre Dame, The","Steinbeck, John",fiction,3.02,175,Random House
+"Age of Discontuinity, The","Steinbeck, John",economics,3.45,178,Random House
+Beyond the Three Seas,"Steinbeck, John",history,3.88,197,Random House
+On Education,"Steinbeck, John",philosophy,3.78,203,Routledge
+History of Western Philosophy,"Steinbeck, John",philosophy,2.84,213,Routledge
+Mein Kampf,"Hitler, Adolf",nonfiction,4.23,212,Springer
+"Farewell to Arms, A","Hitler, Adolf",fiction,1.6,179,Springer
+In a Free State,"Dubner, Stephen",fiction,4.88,196,Springer
+Clash of Civilizations and Remaking of the World Order,"Steinbeck, John",history,3.93,228,Springer
+"Nature of Statistical Learning Theory, The","Foreman, John",data_science,1.54,230,Springer
+"Social Choice & Welfare, Vol 39 No. 1","Archer, Jeffery",economics,2.42,235,Springer
+Rationality & Freedom,"Steinbeck, John",economics,4.39,213,Springer
+Principles of Communication Systems,"Taub, Schilling",computer_science,4.95,240,Springer
+"Veteran, The","Hitler, Adolf",fiction,3.53,177,Springer
+O Jerusalem!,"Archer, Jeffery",history,1.92,217,vikas
+"City of Joy, The","Steinbeck, John",fiction,3.11,177,vikas
+Freedom at Midnight,"Steinbeck, John",history,1.29,167,vikas
+"Maugham's Collected Short Stories, Vol 3","Steinbeck, John",fiction,1.44,171,Wiley
+Ashenden of The British Agent,"Steinbeck, John",fiction,1.02,160,Wiley
+Zen & The Art of Motorcycle Maintenance,"Steinbeck, John",philosophy,3.15,172,Wiley
+Fundamentals of Wavelets,"Foreman, John",signal_processing,2.1,228,Wiley
+Data Smart,"Foreman, John",data_science,4.18,235,Wiley
